@@ -28,10 +28,10 @@ function playGame() {
         } else if ((humanSelection === "ROCK" && computerSelection === "PAPER") ||
         (humanSelection === "PAPER" && computerSelection==="SCISSORS") ||
         (humanSelection === "SCISSORS" && computerSelection==="ROCK")) {
-            console.log(`You lose! computer chose ${computerSelection} beats human choice ${humanSelection}`);
+            console.log(`You lose! computer chose:  ${computerSelection} beats human choice:  ${humanSelection}`);
             computerScore++;
         } else {
-            console.log(`You win! human choice ${humanSelection} beatscomputer chose ${computerSelection}!`);
+            console.log(`You win! human choice:  ${humanSelection} beats computer chose: ${computerSelection}!`);
             humanScore++;
         }
     }
